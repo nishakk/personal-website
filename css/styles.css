@@ -76,6 +76,7 @@ body {
     top: 25%;
     font-family: 'Avenir Next';
     font-size: 5.5em;
+    color: #FF6B6C;
   }
 
   .intro {
@@ -90,6 +91,16 @@ body {
 
   .footer {
     position: relative;
+    left: 0;
+    bottom: 1%;
+    width: 100%;
+    color: black;
+    height: 50px;
+    text-align: center;
+  }
+
+  .footer1 {
+    position: absolute;
     left: 0;
     bottom: 1%;
     width: 100%;
@@ -116,16 +127,78 @@ body {
     font-size: 1.2em;
   }
 
-  .facebookIcon {
-    margin-top: 0.5%;
-    height: 35px;
-    width: 35px;
+  .socialIcon {
+    height: 5%;
+    width: 5%;
+    margin-left: 5px;
+    margin-top: 12px;
   }
 
-  .linkedinIcon {
-    margin-top: 0;
-    height: 20px;
-    width: 20px;
-  }
+}
 
+.gallery {
+  margin-top: 50px;
+  margin-left: 15px;
+  padding: 20px 20px;
+  font-size: 0;
+}
+
+.gallery img{
+  padding: 20px 20px;
+  width: 30%;
+  height: 30%;
+  transition: 1s;
+  opacity: 0;
+  animation: gallerySeq .5s forwards;
+}
+
+.aboutContent{
+  position: relative;
+  margin-top: 5%;
+}
+
+.aboutPic {
+  width: 35%;
+  height: 35%;
+  margin-right: 3%;
+  float: right;
+}
+
+.aboutMe {
+  position: absolute;
+  left: 4%;
+  font-family: 'Avenir Next';
+  font-size: 5.5em;
+  font-weight: bold;
+  color: #FF6B6C;
+}
+
+.aboutData1 {
+  position: absolute;
+  margin-top: 10%;
+  right: 40%;
+  left: 4%;
+  font-family: 'Avenir Next';
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.aboutData2 {
+  position: absolute;
+  margin-top: 19%;
+  right: 40%;
+  left: 4%;
+  font-family: 'Avenir Next';
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.aboutData3 {
+  position: absolute;
+  margin-top: 31.7%;
+  right: 40%;
+  left: 4%;
+  font-family: 'Avenir Next';
+  font-size: 1.2em;
+  text-align: left;
 }

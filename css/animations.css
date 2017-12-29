@@ -23,6 +23,72 @@
   animation-name: nameSlideDown;
 }
 
+.gallery img {
+  animation-duration: 1s;
+  animation-name: gallerySlideDown;
+}
+
+.aboutMe {
+  animation-duration: 1s;
+  animation-name: nameSlideDown;
+}
+
+.aboutData {
+  animation-duration: 1s;
+  animation-name: slideRight;
+}
+
+.aboutPic {
+  animation-duration: 1s;
+  animation-name: slideleft;
+}
+
+.footer {
+  animation-duration: 2s;
+  animation-name: mainPicFadeIn;
+}
+
+.footer1 {
+  animation-duration: 2s;
+  animation-name: mainPicFadeIn;
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%,0,0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideleft {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%,0,0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes gallerySlideDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes mainPicFadeIn {
   0% {
     opacity: 0;
@@ -67,4 +133,58 @@
     opacity: 1;
     transform: none;
   }
+}
+
+@keyframes gallerySeq {
+  100% {
+    opacity: 1;
+  }
+}
+
+.gallery img:nth-child(1) {
+  animation-delay: .3s;
+}
+
+.gallery img:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.gallery img:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.gallery img:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.gallery img:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+.gallery img:nth-child(6) {
+  animation-delay: 1.8s;
+}
+
+.gallery img:nth-child(7) {
+  animation-delay: 2.1s;
+}
+
+.gallery img:nth-child(8) {
+  animation-delay: 2.4s;
+}
+
+.gallery img:nth-child(9) {
+  animation-delay: 2.7s;
+}
+
+.gallery img:nth-child(10) {
+  animation-delay: 3s;
+}
+
+.gallery img:nth-child(11) {
+  animation-delay: 3.3s;
+}
+
+.gallery img:nth-child(12) {
+  animation-delay: 3.6s;
 }
