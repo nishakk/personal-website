@@ -1,0 +1,65 @@
+.projectContent {
+  animation-duration: 2s;
+  animation-name: fadeIn;
+}
+
+.name {
+  animation-duration: 2s;
+  animation-name: nameSlideDown;
+}
+
+.intro {
+  animation-duration: 2s;
+  animation-name: introSlideUp;
+}
+
+.mainPic1 {
+  animation-duration: 2s;
+  animation-name: mainPicFadeIn;
+}
+
+@keyframes mainPicFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes introSlideUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1,
+    transform: none;
+  }
+}
+
+@keyframes nameSlideDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

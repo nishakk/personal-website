@@ -44,8 +44,8 @@ body {
   .nav li {
     width: 120px;
     border-bottom: none;
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
     font-size: 1.4em;
   }
 
@@ -60,8 +60,8 @@ body {
 
 .logo {
   float: left;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   margin-left: 30px;
 }
 
@@ -74,7 +74,7 @@ body {
 .name {
   position: absolute;
   left: 41%;
-  top: 15%;
+  top: 25%;
   font-family: 'Avenir Next';
   font-size: 5.5em;
 }
@@ -82,9 +82,49 @@ body {
 .intro {
   position: absolute;
   left: 41.3%;
-  top: 40%;
+  top: 50%;
   right: 5%;
   font-family: 'Avenir Next';
   font-size: 1.4em;
   text-align: left;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 1%;
+  width: 100%;
+  color: black;
+  height: 50px;
+  text-align: center;
+}
+
+.copyright {
+  position: absolute;
+  text-align: left;
+  color: black;
+  margin-top: 1%;
+  left: 3%;
+  font-family: 'Avenir Next';
+  font-size: 1.2em;
+}
+
+.socialLinks {
+  position: absolute;
+  text-align: right;
+  right: 3%;
+  font-family: 'Avenir Next';
+  font-size: 1.2em;
+}
+
+.facebookIcon {
+  margin-top: 0.5%;
+  height: 35px;
+  width: 35px;
+}
+
+.linkedinIcon {
+  margin-top: 0;
+  height: 20px;
+  width: 20px;
 }
