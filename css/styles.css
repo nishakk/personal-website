@@ -64,3 +64,27 @@ body {
   width: 100px;
   margin-left: 30px;
 }
+
+.mainPage {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.name {
+  position: absolute;
+  left: 41%;
+  top: 15%;
+  font-family: 'Avenir Next';
+  font-size: 5.5em;
+}
+
+.intro {
+  position: absolute;
+  left: 41.3%;
+  top: 40%;
+  right: 5%;
+  font-family: 'Avenir Next';
+  font-size: 1.4em;
+  text-align: left;
+}
