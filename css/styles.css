@@ -56,75 +56,76 @@ body {
   .nav ui {
     overflow: auto;
   }
-}
 
-.logo {
-  float: left;
-  height: 80px;
-  width: 80px;
-  margin-left: 30px;
-}
+  .logo {
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+  }
 
-.mainPage {
-  position: relative;
-  text-align: center;
-  color: black;
-}
+  .mainPage {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
 
-.name {
-  position: absolute;
-  left: 41%;
-  top: 25%;
-  font-family: 'Avenir Next';
-  font-size: 5.5em;
-}
+  .name {
+    position: absolute;
+    left: 41%;
+    top: 25%;
+    font-family: 'Avenir Next';
+    font-size: 5.5em;
+  }
 
-.intro {
-  position: absolute;
-  left: 41.3%;
-  top: 50%;
-  right: 5%;
-  font-family: 'Avenir Next';
-  font-size: 1.4em;
-  text-align: left;
-}
+  .intro {
+    position: absolute;
+    left: 41.3%;
+    top: 50%;
+    right: 5%;
+    font-family: 'Avenir Next';
+    font-size: 1.4em;
+    text-align: left;
+  }
 
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 1%;
-  width: 100%;
-  color: black;
-  height: 50px;
-  text-align: center;
-}
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 1%;
+    width: 100%;
+    color: black;
+    height: 50px;
+    text-align: center;
+  }
 
-.copyright {
-  position: absolute;
-  text-align: left;
-  color: black;
-  margin-top: 1%;
-  left: 3%;
-  font-family: 'Avenir Next';
-  font-size: 1.2em;
-}
+  .copyright {
+    position: absolute;
+    text-align: left;
+    color: black;
+    margin-top: 1%;
+    left: 3%;
+    font-family: 'Avenir Next';
+    font-size: 1.2em;
+  }
 
-.socialLinks {
-  position: absolute;
-  text-align: right;
-  right: 3%;
-  font-family: 'Avenir Next';
-  font-size: 1.2em;
-}
+  .socialLinks {
+    position: absolute;
+    text-align: right;
+    right: 3%;
+    font-family: 'Avenir Next';
+    font-size: 1.2em;
+  }
 
-.facebookIcon {
-  margin-top: 0.5%;
-  height: 35px;
-  width: 35px;
-}
+  .facebookIcon {
+    margin-top: 0.5%;
+    height: 35px;
+    width: 35px;
+  }
 
-.linkedinIcon {
-  margin-top: 0;
-  height: 20px;
-  width: 20px;
+  .linkedinIcon {
+    margin-top: 0;
+    height: 20px;
+    width: 20px;
+  }
+
 }
