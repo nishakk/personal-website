@@ -4,12 +4,12 @@
 }
 
 .name {
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: nameSlideDown;
 }
 
 .intro {
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: introSlideUp;
 }
 
