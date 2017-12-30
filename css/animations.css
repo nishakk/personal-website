@@ -36,6 +36,7 @@
 .aboutData {
   animation-duration: 1s;
   animation-name: slideRight;
+  transition-timing-function: ease-out;
 }
 
 .aboutPic {
@@ -53,7 +54,7 @@
   animation-name: mainPicFadeIn;
 }
 
-.projectsImages img {
+.container {
   animation-duration: 1s;
   animation-name: gallerySlideDown;
 }
