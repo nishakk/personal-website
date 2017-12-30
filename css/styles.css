@@ -352,16 +352,27 @@ ul.social-icons {
   text-align: right;
   font-size: 1em;
   margin-right: 35px;
+  margin-bottom: 35px;
   font-style: italic;
 }
 
 .projData {
   font-size: 1.1em;
-  margin: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
 }
 
 .mainProjPic {
   width: 60%;
   height: 60%;
   margin-left: 20%;
+}
+
+.projParaHeading {
+  font-size: 1.4em;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 1%;
+  font-weight: bold;
 }

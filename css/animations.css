@@ -59,6 +59,23 @@
   animation-name: gallerySlideDown;
 }
 
+.projAnimation{
+  animation-duration: 1s;
+  animation-name: projectSlideDown;
+}
+
+@keyframes projectSlideDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -2%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes slideRight {
   0% {
     opacity: 0;
