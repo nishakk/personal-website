@@ -39,6 +39,14 @@ body {
   background-color: #FF6B6C;
 }
 
+
+.logo {
+  float: left;
+  height: 80px;
+  width: 80px;
+  margin-left: 30px;
+}
+
 @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
@@ -60,12 +68,6 @@ body {
     overflow: auto;
   }
 
-  .logo {
-    float: left;
-    height: 80px;
-    width: 80px;
-    margin-left: 30px;
-  }
 
   .mainPage {
     position: relative;
