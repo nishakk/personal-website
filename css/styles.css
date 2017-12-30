@@ -242,7 +242,7 @@ ul.social-icons {
     text-decoration: none;
 }
 
-.fa-facebook {
+.fa-github {
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -252,8 +252,8 @@ ul.social-icons {
     background-color: #322f30;
 }
 
-.fa-facebook:hover {
-    background-color: #3d5b99;
+.fa-github:hover {
+    background-color: #6cc644;
 }
 
 .fa-linkedin {
