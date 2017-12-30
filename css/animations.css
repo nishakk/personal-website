@@ -53,6 +53,11 @@
   animation-name: mainPicFadeIn;
 }
 
+.projectsImages img {
+  animation-duration: 1s;
+  animation-name: gallerySlideDown;
+}
+
 @keyframes slideRight {
   0% {
     opacity: 0;
