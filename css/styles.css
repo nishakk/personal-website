@@ -4,7 +4,7 @@
 body {
   margin: 0
   padding: 0;
-  background: #ccc;
+  background: #F5F5F5;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -358,9 +358,17 @@ ul.social-icons {
 
 .projData {
   font-size: 1.1em;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-bottom: 35px;
+}
+
+.projData1 {
+  font-size: 1.1em;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 35px;
+  text-align: center;
 }
 
 .mainProjPic {
@@ -372,7 +380,48 @@ ul.social-icons {
 .projParaHeading {
   font-size: 1.4em;
   margin-top: 2.5%;
-  margin-left: 2.5%;
+  margin-left: 8%;
   margin-bottom: 1%;
   font-weight: bold;
+}
+
+.video {
+  margin-left: 21%;
+  margin-bottom: 3%;
+}
+
+.navButtons {
+  text-align: center;
+}
+
+.navButton {
+  height: 10%;
+  width: 10%;
+}
+
+.next img{
+  right: 0;
+  top:40%;
+  opacity: 0.5;
+  height: 20%;
+  position: fixed;
+  transition: 0.5s ease;
+}
+
+.prev img{
+  top:40%;
+  opacity: 0.5;
+  height: 20%;
+  position: fixed;
+  transition: 0.5s ease;
+}
+
+.next img:hover{
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.prev img:hover {
+  opacity: 1;
+  transition: 0.5s ease;
 }
