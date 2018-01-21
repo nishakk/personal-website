@@ -216,7 +216,7 @@ body {
   left: 4%;
   font-family: 'Avenir Next';
   font-size: 1.2em;
-  text-align: left;
+  text-align: justify;
 }
 
 .social-icons {
@@ -362,6 +362,7 @@ ul.social-icons {
   margin-left: 8%;
   margin-right: 8%;
   margin-bottom: 35px;
+  text-align: justify;
 }
 
 .projData1 {
