@@ -11,9 +11,6 @@ body {
   font-family: 'Open Sans';
 }
 
-.nav ul li {
-  width: 150px;
-}
 
 .nav ul {
   list-style: none;
