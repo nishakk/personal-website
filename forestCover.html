@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Nisha Kunhikrishnan</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width" />
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="js/scripts.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93180243-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-93180243-1');
+    </script>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">
+        <img class="logo" src="images/logo.png">
+      </a>
+      <ul>
+        <li class="project" style="width:100px"><a href="index.html" id="activeTab">Projects</a></li>
+        <li class="ux" style="width:80px"><a href="ux.html">UX</a></li>
+        <li class="about" style="width:80px"><a href="about.html">About</a></li>
+        <li class="publications" style="width:180px"><a href="https://scholar.google.co.in/citations?user=wdNdV9wAAAAJ&hl=en" target="_blank">Publications</a></li>
+        <li class="resume" style="width:100px"><a href="https://drive.google.com/file/d/1KqCJEy3e31BfExs5wQpGE3I4L65EdHXJ/view" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+    <div class="projAnimation">
+      <div class="projHeading">Forest Cover Type Prediction</div>
+      <hr width=95%>
+      <div class="projDate">August 2014 - May 2015</div>
+      <div class="projData">This was my undergraduate thesis project where I worked in the field of Machine Learning with Data Visualization. The aim of the project was to determine the forest cover type of the dataset containing strictly cartographic variables. This was one of the problems available at Kaggle website and we acquired the dataset from UCI machine learning repository.</div>
+      <div class="projParaHeading">Feature Engineering</div>
+      <div class="projData">After analyzing the data set and transforming it into more understandable format by removing out-of-range values, missing values etc., we applied feature engineering to understand the relationship between the features and create new features from existing ones if required. Our dataset contained 44 binary columns for 40 soil types and 4 wilderness areas. We changed this representation to a Soil_Type attribute which included all 40 soil type values and Wilderness_Area attribute which included all 4 distinct cover types. The aspect value in the raw dataset was azimuthal (360 degrees) which we shifted to 180 degrees. Correlation between features were also plotted and converted to a single, simpler relation. For instance, the graph below shows the graph of Elevation versus Vertical_Distance_To_Hydrology. The graph coloring each cover type in different colors, seem to reveal a pattern of the plotted points from which a new simpler relation was created by subtracting Vertical_Distance_To_Hydrology from Elevation. Looking at the distribution of Vertical_Distance_To_Hydrology, we found that it has some negative values. We created another variable called 'Highwater' , which indicates whether this attribute has postive or negative value.
+      </div>
+      <img style="margin-left:3%" src="images/projects/featureEngg.png">
+      <div class="projParaHeading">Feature Selection</div>
+      <div class="projData">Feature selection aims to choose a small subset of the relevant features from the original ones according to a certain relevance evaluation criterion which leads to better performance, lower computational cost and better model interpretability. Gain Ratio is a measure of information that is provided by an attribute. Decision tree uses Gain Ratio as attribute selection measure for tree construction. Hence, the most relevant attributes are taken for tree construction. This eliminates the need for using any other feature selection technique. Also upon plotting graphs, we observed that the attributes are independent of each other. For example, from right-hand side graphs, the pair of attributes Aspect, Slope and Horizontal_Distance_To_Fire_Points are found to be independent of each other and hence are included in the dataset</div>
+      <img style="margin-left:15%" src="images/projects/FeatureSelection.png">
+      <div class="projParaHeading">Pruning Boosted Classifier(MC5.0)</div>
+      <div class="projData">The C50 package in R builds C5.0 decision trees and rule based models for classification. The model can take the form of a full decision tree or a collection of rules or boosted versions of either. The framework of C50 package with boosting section is given below.</div>
+      <img style="width:45%;margin-left:30%;" src="images/projects/Pruning1.png">
+      <div class="projData">In the model building stage, C50 takes a parameter trials (T) to specify the number of boosting iterations. A value of one indicates that a single model is used. Hence T number of boosted decision trees make up the ensemble used for predicting classes.<br/><br/>The Kappa Pruning Algorithm was implemented to improve the boosting performance as follows: Kappa K on the training set, for every pair of classifiers is produced by adaboost. Once all kappas are calculated, choose pairs of classifiers starting with the pair that has the lowest K and consider them in increasing order of K until M classifiers are obtained.<br/><br/>The source code of the C50 package in R was modified to prune the boosted classifiers. Kappa Pruning algorithm was applied on T boosted classifiers to obtain M pruned boosted classifiers (M<=T). The modified framework of the C50 model is as shown below.</div>
+      <img style="width:45%;margin-left:30%;" src="images/projects/Pruning2.png">
+      <hr width=95%>
+    </div>
+    <a class="prev" href="bvw.html"><img src="images/prevPage.png"></a>
+    <a class="next" href="get-em-moles.html"><img src="images/nextPage.png"></a>
+    <div class="footer">
+      <div class="copyright">&copy; Nisha Kunhikrishnan 2017</div>
+      <ul class="social-icons">
+        <li><a href="https://www.linkedin.com/in/nishakk94/" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.instagram.com/nishakk94/" class="social-icon" target="_blank"> <i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://github.com/nishakk" class="social-icon" target="_blank"> <i class="fa fa-github"></i></a></li>
+        <li><a href="https://dribbble.com/nishakk" class="social-icon" target="_blank"> <i class="fa fa-dribbble"></i></a></li>
+      </ul>
+    </div>
+  </body>
+</html>
