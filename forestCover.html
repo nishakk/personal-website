@@ -48,6 +48,7 @@
       <img style="width:45%;margin-left:30%;" src="images/projects/Pruning1.png">
       <div class="projData">In the model building stage, C50 takes a parameter trials (T) to specify the number of boosting iterations. A value of one indicates that a single model is used. Hence T number of boosted decision trees make up the ensemble used for predicting classes.<br/><br/>The Kappa Pruning Algorithm was implemented to improve the boosting performance as follows: Kappa K on the training set, for every pair of classifiers is produced by adaboost. Once all kappas are calculated, choose pairs of classifiers starting with the pair that has the lowest K and consider them in increasing order of K until M classifiers are obtained.<br/><br/>The source code of the C50 package in R was modified to prune the boosted classifiers. Kappa Pruning algorithm was applied on T boosted classifiers to obtain M pruned boosted classifiers (M<=T). The modified framework of the C50 model is as shown below.</div>
       <img style="width:45%;margin-left:30%;" src="images/projects/Pruning2.png">
+	  <div class="projData">Our work was published at 2015 IEEE International Advance Computing Conference (IACC). Read more <a style="color:blue" target="_blank" href="https://ieeexplore.ieee.org/document/7154873">here</a>.</div>
       <hr width=95%>
     </div>
     <a class="prev" href="bvw.html"><img src="images/prevPage.png"></a>
